@@ -1,0 +1,416 @@
+@charset "ISO-8859-1";
+
+@font-face
+{
+    font-family: myFont;
+  	src: url('../fonts/Montserrat-Regular.ttf');
+}
+
+*{
+	
+ font-family: myFont;
+}
+
+#header
+{
+	display:flex;
+}
+#logoDiv
+{
+	display:flex;
+}
+#logoDiv h1
+{
+	margin:10px 0 0 0;
+}
+#logoDiv img
+{
+	margin: 0px 10px 10px 10px;
+}
+#navbar ul {
+  list-style-type: none;
+  margin: 10px 0 0 100px;
+  padding: 0;
+  overflow: hidden;
+}
+
+#navbar li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: #944A31;
+  color:white;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+#navbar li:nth-child(5)
+{
+	margin-left:300px;
+}
+#navbar li:nth-child(4) i
+{
+	margin:0;
+	padding:0;
+}
+#firstDiv
+{
+	background: url("../images/booksLadders.jpg");
+	height:550px;
+}
+#mainHeadH1
+{
+  background-color: white;
+  color: black;
+  font-size: 80px; 
+  font-weight: bold;
+  margin: 0 auto;
+  padding: 10px;
+  width: 30%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  mix-blend-mode: screen;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#textDiv
+{
+	background-color:black;
+	color:white;
+}
+#textDiv h1
+{
+	margin:0;
+	font-family:myFont;
+	margin-left:500px;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+#secondDiv 
+{
+   width: 100%;
+   height: 670px;
+   position: relative;
+   background-color:#E88C55;
+   display:flex;
+   padding-left:80px;
+   padding-top:60px;
+}
+.secondSubDiv
+{
+	width:400px;
+	height:500px;
+	background-color:white;
+	margin-left:40px;
+}
+.secondSubDivText
+{
+	margin:20px;
+}
+.secondSubDivText p:nth child(2)
+{
+	
+}
+#secondDiv button
+{
+	
+}
+#secondHeadP
+{
+	margin-left:150px;	
+}
+#secondHeadP2
+{
+	margin-left:20px;	
+}
+#thirdDiv
+{
+	width: 100%;
+   height: 570px;
+   background: url("../images/manybooks.jpg");
+}
+#divimgone
+{
+	border-radius: 50%;
+	margin-top:40px;
+	margin-left:80px;
+}
+.secondSubDivText
+{
+	font-family:myFont;
+}
+#fourthDiv
+{
+	width: 100%;
+   height: 270px;
+	background-color:#944A31;
+}
+
+/********************Cards****************/
+
+#bookCards
+{
+	display:flex;
+	flex-wrap: wrap;
+	margin-left:150px;
+}
+.bookOneCard
+{
+	width:200px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  	transition: 0.3s;
+  	margin:50px;
+  	padding:50px;
+}
+.bookOneCard:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.bookOneCard img
+{
+	margin-left:20px;
+}
+.bookOneCard h2,p
+{
+	margin-left:80px;
+}
+#cartBtn
+{
+	background-color: #527a7a;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.bookOneCard form
+{
+	margin-left:40px;
+}
+/*************Footer********************/
+footer
+{
+    height:300px;
+    font-size:36px;
+    margin-top: 10px;
+    background-color:#944A31;
+    display: flex;
+    width: 100%;
+}
+.foodiv
+{
+    width: 33.33%;
+    height: 100px;
+}
+.left,.right
+{
+    border-top:1px solid white;
+    margin: 60px 60px 90px 60px;
+}
+.center
+{
+    text-align: center;
+    color: white;
+    margin: 10px 60px 90px 60px;
+}
+.center p
+{
+    font-size:30px;
+}
+#icons
+{
+    margin-right: 18px;
+}
+.fa
+{
+    color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+#foo-left-ul
+{
+    list-style:none;
+}
+#foo-left-ul li
+{
+    color:white;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#foo-right-ul
+{
+    list-style:none;
+}
+.foo-right-ul-li
+{
+    color:white;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.icons-a
+{
+    color: white;
+    text-decoration: none;
+}
+
+/*************payment section******************/
+
+
+
+#loginContent h1{
+	color:#944A31
+}
+
+
+
+
+
+
+
+/***************cart***************/
+
+.cart {  
+            width: 40px;  
+            height: 40px;  
+            padding: 0;  
+            position: absolute;  
+            left: 81%;  
+            margin-left: 195px;  
+            -moz-border-radius: 9999em;  
+            -webkit-border-radius: 9999em;  
+            border-radius: 9999em;  
+            border: none;  
+            background: #e54040;  
+            cursor: pointer;  
+        }  
+          
+        .cart:hover {  
+            -moz-box-shadow: inset 0 0 7px 0 rgba(0, 0, 0, 0.5);  
+            -webkit-box-shadow: inset 0 0 7px 0 rgba(0, 0, 0, 0.5);  
+            box-shadow: inset 0 0 7px 0 rgba(0, 0, 0, 0.5);  
+        }  
+          
+        .cart:hover .popup {  
+            visibility: visible;  
+            opacity: 1;  
+            pointer-events: auto;  
+            animation-name: show-popup;  
+            animation-direction: normal;  
+            animation-timing-function: cubic-bezier(1, 0.18, 1, 0.93);  
+        }  
+        /* popup window style */  
+          
+        .popup {  
+            padding: 20px;  
+            visibility: hidden;  
+            opacity: 0;  
+            pointer-events: none;  
+            position: absolute;  
+            top: 100%;  
+            width: 250px;  
+            margin-left: -205px;  
+            margin-top: 20px;  
+            background: #ffffff;  
+            border: 1px solid #cbcbcb;  
+            -moz-border-radius: 5px;  
+            -webkit-border-radius: 5px;  
+            border-radius: 5px;  
+            -moz-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);  
+            -webkit-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);  
+            box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);  
+        }  
+          
+        .popup:after {  
+            position: absolute;  
+            content: ' ';  
+            top: -30px;  
+            height: 30px;  
+            width: 100%;  
+        }  
+          
+        .popup:before {  
+            position: absolute;  
+            content: ' ';  
+            left: 220px;  
+            top: -9px;  
+            width: 16px;  
+            height: 16px;  
+            border-top: 1px solid #cbcbcb;  
+            border-right: 1px solid #cbcbcb;  
+            background: #ffffff;  
+            box-shadow: 1px -1px 1px 0 rgba(0, 0, 0, 0.2);
+            transform: rotate(-45deg);  
+        }  
+          
+        .cart {  
+            background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDoAABSCAABFVgAADqXAAAXb9daH5AAAAGPSURBVHjajNNNi85RGAbw3zwzI/XMmEHeFYmSvJRSYsOWfAHZ+wAWakp8AAs+A5ImKzujUfKapQnZzIaVxzCYGcMzXRbuydO/Wcxdd+ecq3Ouc67rvk9fkqcY8T8mcA3frSIGcLKBfcMaq4wWpjCNjwi2o71aggGcQT92YBybcLTIZ7ABX7G+xlF8qvWgJMs5kuRFksUkDypPJLmd5FSSW0lOJ7lT+GSSt70E7SQ38i+eJDmSZE+SA0n21bi35heTdJMstnrkzOMlfmELhnEVQxjDOlzBDxwv2c/7kvR6sh+Py8QLeFde9GMJ3arQw/JqrNUwtVMVaWMbFnC51pfwGQfrhR1MNgnm8LpuPVsNdr0236xKncdgyZ0eaBD8xhss4hyOlea1hQ1ha0mZwM8mwRKe4VVJ6K9Daj6PD9V0j7DUNBH6sLNcn8efOtytp7cxW82U3j5Yzs1J7ieZSnI3yXDho0nGC7+XZGMSKxEcSjJbDdVJsrvwww18VxKtFf7HTH2wObwvGfClgS/A3wEAjJAlBBKFdqAAAAAASUVORK5CYII=);  
+            background-repeat: no-repeat;  
+            background-position: center;  
+        }  
+          
+        .checkout {  
+            margin-top: 10px;  
+            padding-left: 20px;  
+        }  
+          
+        .checkout-button {  
+            background: #e54040;  
+            box-shadow: inset 0 2px 7px 0 rgba(255, 255, 255, 0.3);  
+            border: 1px solid #e06b6b;  
+            border-radius: 3px;  
+            color: #ffffff;  
+        }  
+          
+        .checkout-button:hover {  
+            background: #e54040;   
+            box-shadow: none;  
+        }  
+          
+        .checkout-button:active {  
+            background: #e54040;  
+            box-shadow: inset 0 1px 2px 0 rgba(0, 0, 0, 0.2);  
+        }
+        
+        #cartHead{ padding: 20px;} 
